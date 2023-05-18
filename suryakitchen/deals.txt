@@ -1,0 +1,75 @@
+//functions
+
+function display_coupon_code() {
+	$coupons = get_posts(array(
+		'post_type' => 'shop_coupon',
+		'posts_per_page' => -1,
+		//'orderby' => 'rand'
+	));
+	//FormattedPrint($coupons,true);
+	if ($coupons) {
+		$coupon = $coupons[0];
+		echo '<div id="random-coupon-code" class="btn btn-primary btn-success unique-discount-code" data-code="' . $coupon->post_title . '">One Time Discount Code : <copy>'.$coupon->post_title.'</copy></div>';
+		echo do_shortcode('[copy content="'. $coupon->post_title.'"]Copy Code [/copy]');
+		if ( ! empty( $coupon ) ) {
+			$coupon_id = $coupon->ID;
+			wp_delete_post( $coupon_id, true );
+		 }
+	}
+	$coupon_id=$coupon->ID;
+
+	exit;
+}
+add_action('wp_ajax_display_coupon_code', 'display_coupon_code');
+add_action('wp_ajax_nopriv_display_coupon_code', 'display_coupon_code');
+
+function ajax_url() {
+?>
+<script type="text/javascript">
+	var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
+</script>
+<?php
+}
+add_action( 'wp_footer', 'ajax_url' );
+
+//jquery
+jQuery(document).ready(function(){
+	jQuery(document).on('click','.reveal-button',function(){
+		var clickedButton = jQuery(this);
+		clickedButton.find('#reveal-button').css('display','none');
+		clickedButton.text("Loading...");
+		jQuery.ajax({
+            url:ajaxurl,
+            type: 'POST',
+            data: {
+                action: 'display_coupon_code'
+            },
+            success: function(response) {
+                clickedButton.text(" ");
+				clickedButton.append(response);
+            },
+            error: function(xhr, status, error) {
+                alert('There was an error processing the AJAX request: ' + error);
+            }
+        });
+		
+	})
+});
+
+//html
+<div class="deals-meta-discount-code">
+																	
+    <?php 
+        $product_id=get_the_ID();
+        $discount_on_deals=get_field('discount_code_on_deals',$product_id);
+        //print_r($discount_on_deals);
+        if($discount_on_deals[0]=="Yes"){
+            echo  '<div class="reveal-button " style="margin-bottom:10px">
+                        <button id="reveal-button" class="btn btn-success btn-primary">Discount Code</button>
+                    </div>';
+        }else{
+    ?>
+    <span class="deals-meta-lable">Discount code: </span><span
+            class="deals-discount-code"><?= $discount_code ?></span>
+    <?php } ?>
+</div>

@@ -1,0 +1,282 @@
+.dgwt-wcas-search-wrapp .dgwt-wcas-search-form {
+	opacity: 1;
+}
+body.chrome-less-reward .dgwt-wcas-search-wrapp.dgwt-wcas-layout-icon {
+    margin-left: 0rem;
+    width: 100%!important;
+}
+.chrome-less-reward.woocommerce-page.archive .flyout-binder .shopping-btn button{
+	display:block!important;
+}
+.chrome-less-reward .flyout-binder {
+    top: 1rem;
+}
+.singular-shop div.product .cart.variations_form {
+    margin-top: 6rem!important;
+}
+/* div.product .cart.variations_form {
+    margin-top: 3rem!important;
+} */
+
+/* */
+.product .caption .add-cart a {
+    width: 100%!important;
+}
+div#elementor-lightbox-slideshow-single-img {
+    display: none!important;
+} 
+.reveal-button {
+    display: flex;
+}
+span.copy-the-code-shortcode {
+    background: #00b350;
+    padding: 5px;
+    margin-left: 0.5rem;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+@media(max-width:1200px){
+	.chrome-less-reward form.dgwt-wcas-search-form {
+    margin-left: 0rem;
+    width: 100%!important;
+}
+}
+@media(max-width:1199px){
+	.chrome-less-reward.single-product .topbar-title .newbalance {
+    width: 73%;
+}
+.singular-shop div.product .cart.variations_form {
+    margin-top: 1rem!important;
+}
+
+	.chrome-less-reward .flyout-binder {
+    position: absolute;
+    right: 0px;
+    top: 5rem;
+	}
+	span.copy-the-code-shortcode{
+		    margin-left: 0rem;
+				text-align: center;
+				margin-top: 0.5rem;
+				width: 50%;
+	}
+	.reveal-button {
+    display: block;
+}
+	.unique-discount-code-copy {
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+}
+}
+
+@media(max-width:999px){
+		body.chrome-less-reward .basket-red {
+    top: 1rem!important;
+}
+	body.chrome-less-reward .gren-border {
+    margin-top: 1rem;
+}
+	.dgwt-wcas-search-wrapp{
+		margin-left:1rem;
+	}
+}
+@media(max-width:989px){
+		.chrome-less-reward .flyout-binder {
+    right: 1rem;
+    top: 0rem;
+	}
+}
+
+@media(max-width:990px) and (min-width:768px){
+	.dgwt-wcas-search-wrapp {
+    margin-left: 8rem;
+    top: -1rem;
+}
+}
+@media(max-width:766px){
+		body.chrome-less-reward .basket-red {
+    top: 0rem!important;
+}
+	body.chrome-less-reward .gren-border {
+    margin-top: 0rem;
+}
+	.chrome-less-reward .flyout-binder {
+    top: 2rem;
+}
+	.chrome-less-reward.single-product .flyout-binder ,.chrome-less-reward.dokan-store .flyout-binder   {
+    top: 0rem;
+}
+	.chrome-less-reward.archive .flyout-binder{
+		top:2rem!important;
+	}
+}
+
+@media(max-width:600px){
+	body.chrome-less-reward.store-listing .basket-red {
+    top: 15.5rem!important;
+}
+	body.chrome-less-reward.store-listing .gren-border {
+    margin-top: 5rem;
+}
+	.chrome-less-reward.store-listing #main {
+    padding-top: 6rem;
+}
+	.chrome-less-reward.archive #main{
+		margin-top:2rem;
+	}
+	.chrome-less-reward.dokan-store div#dokan-primary {
+    margin-top: 4rem;
+}
+	body.chrome-less-reward.archive .gren-border {
+    margin-top: 3rem;
+}
+	body.chrome-less-reward.archive .basket-red {
+    top: 13.5rem!important;
+}
+	.chrome-less-reward.dokan-store p.woocommerce-result-count.result-vendor{
+		margin-top:2rem;
+	}
+	
+	body.chrome-less-reward.dokan-store .basket-red {
+    top: 13.5rem!important;
+}
+	
+	body.chrome-less-reward.dokan-store .gren-border {
+    margin-top: 3rem;
+}
+	
+	body.chrome-less-reward .basket-red {
+    top: 10.5rem!important;
+}
+		.chrome-less-reward .flyout-footer-btns-binder{
+			display:block;
+		}
+	.chrome-less-reward .window-popup-confirm-btn{
+		width:100%!important;
+		margin-top:.5rem;
+	}
+	.chrome-less-reward .elementor-element-3ea25dc{
+		background: none;
+	}
+	span.copy-the-code-shortcode{
+				width: 100%;
+	}
+	body.chrome-less-reward.single-product .gren-border {
+    margin-top: 3rem;
+}
+	body.chrome-less-reward.single-product .basket-red {
+    top: 13.5rem!important;
+}
+.chrome-less-reward.single-product #main {
+    padding-top: 6rem;
+}
+.chrome-less-reward .flyout-binder {
+    right: 2rem;
+    top: 12.5rem!important;
+}
+	.chrome-less-reward.single-product .flyout-binder,.chrome-less-reward.archive .flyout-binder,.chrome-less-reward.dokan-store .flyout-binder{
+    right: 2rem;
+    top: 9.5rem!important;
+}
+}
+@media(max-width:480px){
+	.dokan-store-products-filter-area .dokan-store-products-ordeby input.product-name-search {
+    width: 100%!important;
+}
+	.dokan-store-products-filter-area .dokan-store-products-ordeby input.search-store-products {
+    margin-top: 0.5rem;
+}
+	
+}
+@media(max-width:464px){
+	.chrome-less-reward .flyout-binder {
+    width: 268px!important;
+    position: absolute!important;
+    right: 2rem!important;
+}
+	body.chrome-less-reward .cl-flyout-product-title {
+    width: auto;
+    padding-left: 5px;
+}
+	.chrome-less-reward .flyout-binder{
+		    position: relative;
+    top: 1rem;
+    right: 1rem;
+    width: 100%;
+	}
+	.chrome-less-reward .cursor-pointer{
+		    position: absolute;
+    right: 1rem;
+	}
+	.chrome-less-reward .flyout-items.check{
+		    padding-top: 3rem;
+	}
+	.chrome-less-reward .flyout-binder .flydel i {
+    top: -3.5rem;
+    right: 7.5rem;
+    left: 14.5rem;
+}
+}
+@media(max-width:420px){
+	.SumoSelect>.optWrapper.isFloating {
+		width:100%!important;
+    position: relative!important;
+}
+		.dokan-store.chrome-less-reward .dokan-store-products-filter-area {
+    margin-bottom: 0px;
+}
+	.dokan-store.chrome-less-reward  .result-vendor{
+		margin-bottom:1rem;
+	} 
+}
+@media(max-width:375px){
+	body.chrome-less-reward .cl-flyout-product-title {
+    width: auto;
+    padding-left: 5px;
+}
+	.chrome-less-reward .flyout-binder {
+    right: 0.5rem!important;
+    top: 9.5rem;
+}
+	.chrome-less-reward .tbay-filter .SumoSelect.sumo_orderby>.optWrapper {
+    position: relative!important;
+    width: 100%!important;
+}
+}
+@media(max-width:280px){
+	body.chrome-less-reward .tbay-filter .main-filter {
+    margin-top: 3rem!important;
+}
+	.chrome-less-reward.single-product #main {
+    padding-top:6rem!important;
+} 
+	.chrome-less-reward .flyout-binder{
+		width:220px;
+		right:0.5rem!important;
+	}
+	body.chrome-less-reward.dokan-store .tbay-filter .main-filter{
+		margin-top:0px!important;
+	}
+	.chrome-less-reward.store-listing #main {
+    padding-top: 5rem!important;
+}
+}
+
+.archive.woocommerce-page .tbay-filter form.woocommerce-fillter+.woocommerce-ordering .sort-title{
+	display: inline-block;
+}
+.archive.woocommerce-page .woocommerce-ordering .SumoUnder{
+	position: revert;
+	opacity: 1;
+	padding:0 10px;
+}
+select.orderby.SumoUnder {
+    display: none;
+}
+p.CaptionCont.SelectBox.orderby {
+    display: block!important;
+} 
+.product .caption .add-cart a {    background:#f6f5f3!important;
+}
